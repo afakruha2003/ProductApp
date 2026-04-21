@@ -13,7 +13,7 @@ A full-stack mobile application built with **React Native (Expo)** and **Firebas
 ### Additional Screenshots
 
 - ![Add Category](docs/screenshots/addCategory.jpeg) - Form to add new category
-- ![Add Product](docs/screenshots/addProduct.jpeg) - Form to add new product with category selection
+- ![Add Product](docs/screenshots/addProducts.jpeg) - Form to add new product with category selection
 
 
 ---

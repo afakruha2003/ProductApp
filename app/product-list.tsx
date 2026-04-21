@@ -307,7 +307,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff', borderRadius: 12, padding: 13,
     fontSize: 15, color: '#1a1a2e', borderWidth: 1.5, borderColor: '#e8e8e8',
   },
-  filterList: { paddingHorizontal: 16, paddingVertical: 6, gap: 8, height: 42 },
+  filterList: { paddingHorizontal: 16, paddingVertical: 6, gap: 8, height: 48 },
   filterChip: {
     paddingHorizontal: 12, paddingVertical: 5, borderRadius: 20,
     backgroundColor: '#fff', borderWidth: 1.5, borderColor: '#e0e0e0',

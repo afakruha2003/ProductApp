@@ -11,9 +11,9 @@ A full-stack mobile application built with **React Native (Expo)** and **Firebas
 | ![Home Screen](docs/screenshots/home.jpeg)<br>4 quick-action cards | ![Categories Screen](docs/screenshots/viewCategories.jpeg)<br>List with inline edit/delete | ![Products Screen](docs/screenshots/viewProducts.jpeg)<br>Search, filter, inline edit/delete |
 
 ### Additional Screenshots
-
-- ![Add Category](docs/screenshots/addCategory.jpeg) - Form to add new category
-- ![Add Product](docs/screenshots/addProducts.jpeg) - Form to add new product with category selection
+| Add Category | Add Product |
+|--------------|-------------|
+| ![Add Category](docs/screenshots/addCategory.jpeg) <br> Form to add new category| ![Add Product](docs/screenshots/addProducts.jpeg) <br> Form to add new product with category selection|
 
 
 ---

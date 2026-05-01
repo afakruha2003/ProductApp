@@ -1,10 +1,10 @@
-# 🛒 Product Manager App
+#  Product Manager App
 
 A full-stack mobile application built with **React Native (Expo)** and **Firebase Firestore** for managing product categories and products. Built for SENG328 – Multi-Platform Application Development.
 
 ---
 
-## 📱 Screenshots
+##  Screenshots
 
 | Home | Categories | Products |
 |------|------------|----------|
@@ -18,21 +18,21 @@ A full-stack mobile application built with **React Native (Expo)** and **Firebas
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📂 **Category Management** — Add, edit, and delete categories
-- 📦 **Product Management** — Add products with name, price, description, and category
-- 🔍 **Search** — Real-time product search by name
-- 🏷️ **Filter** — Filter products by category
-- ✏️ **Inline Edit** — Edit via bottom-sheet modal, no separate page needed
-- 🗑️ **Delete** — Instant delete with confirmation
-- 🔔 **Toast Feedback** — Animated success/error notifications for every action
-- 🔄 **Pull to Refresh** — Swipe down to reload data
-- ⚡ **Auto Refresh** — Lists refresh automatically when navigating back
+-  **Category Management** — Add, edit, and delete categories
+-  **Product Management** — Add products with name, price, description, and category
+-  **Search** — Real-time product search by name
+-  **Filter** — Filter products by category
+-  **Inline Edit** — Edit via bottom-sheet modal, no separate page needed
+-  **Delete** — Instant delete with confirmation
+-  **Toast Feedback** — Animated success/error notifications for every action
+-  **Pull to Refresh** — Swipe down to reload data
+-  **Auto Refresh** — Lists refresh automatically when navigating back
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 ProductApp/
@@ -50,7 +50,7 @@ ProductApp/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone & Install
 
@@ -100,7 +100,7 @@ service cloud.firestore {
 }
 ```
 
-> ⚠️ These rules are open for development. Add authentication before going to production.
+>  These rules are open for development. Add authentication before going to production.
 
 ### 5. Run the App
 
@@ -112,7 +112,7 @@ Scan the QR code with the **Expo Go** app on your phone.
 
 ---
 
-## 🗄️ Firestore Data Structure
+##  Firestore Data Structure
 
 ### `categories` collection
 
@@ -133,19 +133,19 @@ Scan the QR code with the **Expo Go** app on your phone.
 
 ---
 
-## 🧭 Navigation Flow
+##  Navigation Flow
 
 ```
 Home
 ├── Add Category      → form → toast → back
-├── View Categories   → list → ✏️ edit modal / 🗑️ delete
+├── View Categories   → list →  edit modal /  delete
 ├── Add Product       → form → toast → back
-└── View Products     → search + filter → list → ✏️ edit modal / 🗑️ delete
+└── View Products     → search + filter → list → edit modal /  delete
 ```
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Version | Purpose |
 |------------|---------|---------|
@@ -157,7 +157,7 @@ Home
 
 ---
 
-## 📋 Available Scripts
+## Available Scripts
 
 ```bash
 npx expo start          # Start development server
@@ -167,7 +167,7 @@ npx expo start --tunnel # Start with tunnel (for network issues)
 
 ---
 
-## ⚙️ Environment Notes
+##  Environment Notes
 
 - Tested on **iOS** and **Android** via Expo Go
 - Firebase project should be set to **Production mode** with open rules during development
